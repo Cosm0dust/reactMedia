@@ -1,7 +1,6 @@
 import React from 'react';
-import s from './Posts.module.css'
-import NewPost from "../NewPost";
 import {useSelector} from "react-redux";
+import Post from "./Post/Post";
 
 const Posts = (props) => {
     const posts = useSelector(state => state.posts.posts)
@@ -10,7 +9,7 @@ const Posts = (props) => {
         <div>
             {
                 posts.map(p=>
-                    <Posts id={p.id} subject = {p.subject} text = {p.text} date={p.date} likes = {p.likesCount}/>)
+                    <Post {...p} key={p.id}/>)
             }
         </div>
     );

@@ -1,20 +1,13 @@
 import React from 'react';
-import s from './Header.module.css'
+import s from './Footer.module.css'
 
-const Header = () => {
+const Footer = () => {
     return (
-            <div className={s.header}>
-                <div className={s.header__logo}>
-                    Own Social Media
-                </div>
-                <div className={s.header__themes}>
-                    <span>White</span>
-                    <span>Dark</span>
-                    <span>Funny</span>
-                </div>
+            <div className={s.footer}>
+
             </div>
     );
 };
 
-export default Header;
+export default Footer;
 

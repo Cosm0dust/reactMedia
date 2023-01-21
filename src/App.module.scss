@@ -1,0 +1,17 @@
+.App{
+  padding: 30px 15px;
+  min-height: 100%;
+  display: grid;
+  grid-template: minmax(100px, auto) 1fr minmax(70px, auto)/ 1fr;
+  grid-template-areas:
+    "h"
+    "m"
+    "f";
+}
+
+
+.footer{
+  grid-area: f;
+  background: cadetblue;
+}
+

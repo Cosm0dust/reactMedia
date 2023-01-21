@@ -1,20 +1,19 @@
 import React from 'react';
-import s from './Header.module.css'
+import s from './Main.module.css'
+import Content from "./Content/Content";
+import Nav from "./Nav/Nav";
 
-const Header = () => {
+
+const Main = (props) => {
+
     return (
-            <div className={s.header}>
-                <div className={s.header__logo}>
-                    Own Social Media
-                </div>
-                <div className={s.header__themes}>
-                    <span>White</span>
-                    <span>Dark</span>
-                    <span>Funny</span>
-                </div>
-            </div>
+        <div className={s.main}>
+            <Nav />
+            <Content/>
+        </div>
+
     );
 };
 
-export default Header;
+export default Main;
 

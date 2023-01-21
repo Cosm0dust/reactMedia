@@ -1,13 +1,14 @@
 import React from 'react';
-import s from "../Messages.module.css";
+import s from "../Dialogs.module.css";
 import {NavLink} from "react-router-dom";
 
-const Name = (props) => {
+const User = ({id, name, key}) => {
+
     return (
-        <div>
-            <NavLink to={`/messages/${props.id}`} className={navData => navData.isActive? s.messages__name_exact_active : s.messages__name_exact}>{props.name}</NavLink>
+        <div key={key}>
+            <NavLink to={`/messages/${id}`} className={navData => navData.isActive? s.messages__name_exact_active : s.messages__name_exact}>{name}</NavLink>
         </div>
     );
 };
 
-export default Name;
+export default User;

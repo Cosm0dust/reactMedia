@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import s from './NewPost.module.css'
+import s from './NewPostForm.module.css'
 
-const NewPost = ({text, handleSubmit, handleInput}) => {
+const NewPostForm = ({text, handleSubmit, handleInput}) => {
 
     return (
         <div className={s.newPost}>
@@ -11,4 +11,4 @@ const NewPost = ({text, handleSubmit, handleInput}) => {
     );
 };
 
-export default NewPost;
+export default NewPostForm;

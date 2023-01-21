@@ -1,20 +1,8 @@
-.header {
-  grid-area: h;
+.main {
   display: grid;
-  font-size: 30px;
+  grid-area: m;
   background: aqua;
   grid-template: 1fr/1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
-  align-items: center;
-}
-.header__logo {
-  background: aquamarine;
-  grid-column: 2/3;
-}
-.header__themes {
-  display: grid;
-  grid-auto-flow: column;
-  justify-items: end;
-  grid-column: 3/4;
 }
 
-/*# sourceMappingURL=Header.module.css.map */
+/*# sourceMappingURL=Main.module.css.map */

@@ -1,3 +1,6 @@
-
+.content {
+  background: beige;
+  grid-column: 3/4;
+}
 
 /*# sourceMappingURL=Content.module.css.map */
