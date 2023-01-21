@@ -1,0 +1,15 @@
+.post {
+  display: grid;
+  grid-template: 1fr/minmax(50px, auto) 1fr;
+}
+.post__img {
+  width: 60px;
+}
+.post__img_img {
+  width: 100%;
+}
+.post__text {
+  display: grid;
+}
+
+/*# sourceMappingURL=Post.module.css.map */

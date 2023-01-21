@@ -1,0 +1,13 @@
+.info {
+  display: grid;
+  grid-template: 1fr/minmax(300px, auto) 1fr;
+}
+.info__img {
+  width: 300px;
+  height: 400px;
+}
+.info__img_ava {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Info.module.css.map */

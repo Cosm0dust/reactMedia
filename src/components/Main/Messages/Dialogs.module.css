@@ -1,0 +1,26 @@
+.messages {
+  display: grid;
+  grid-template: 1fr/minmax(300px, auto) 1fr;
+  padding: 30px;
+  gap: 20px;
+}
+.messages__name {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.messages__name_exact {
+  text-decoration: none;
+  color: maroon;
+}
+.messages__name_exact_active {
+  text-decoration: none;
+  color: blueviolet;
+}
+.messages__message {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=Dialogs.module.css.map */

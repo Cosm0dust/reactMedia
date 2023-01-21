@@ -1,0 +1,25 @@
+.messages{
+  display: grid;
+  grid-template: 1fr / minmax(300px, auto) 1fr ;
+  padding: 30px;
+  gap: 20px;
+  &__name{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    &_exact{
+      text-decoration: none;
+      color: maroon;
+      &_active{
+        text-decoration: none;
+        color: blueviolet;
+      }
+    }
+
+  }
+  &__message{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+}
